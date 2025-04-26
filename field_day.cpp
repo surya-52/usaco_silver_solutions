@@ -52,21 +52,7 @@ int gcd(int a,int b){
     if(a == 0) return b;
     return gcd(b%a,a);
 }
-int find(int a,int b){
-    int ans = 0;
-    cout<<"or "<<a<<" "<<b<<endl;
-    fflush(stdout);
-    int x ;
-    cin >> x;
-    cout<<"and "<<a<<" "<<b<<endl;
-     fflush(stdout);
-    int y;
-    cin >> y;
-    int xo = (~y)&x;
-    // cout<<xo<<endl;
-    ans = 2*(y)+xo;
-    return ans;
-}
+
 signed main()
 {  
    // cpc();
